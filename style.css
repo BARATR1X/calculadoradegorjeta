@@ -1,0 +1,134 @@
+@import url(http://fonts.gogleapis.com/css?family=Lato:300,400,700|PT++Mono);
+
+:root{
+  --primary-color:lightcoral;
+  --secondary-color: dimgrey;
+  --terdidary-color: gainsboro;  
+  --Quardidary-color: #fff;  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--primary-color);
+  font-family: Lato, sans-serif;
+}
+
+.container{
+  width: 350px;
+  height: 625px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin: 100px auto;
+  background-color: #f7f7f7;
+  box-shadow: 5px 5px 5px var(--terdidary-color);
+  border-radius: 20px;
+}
+
+
+.content{    
+  background-color: var(--secondary-color);
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: normal;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-top: -70px;
+  box-shadow: 5px 5px 5px var(--terdidary-color);
+}
+
+.content1{
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 3rem;
+  padding: 20px;
+}
+
+p {
+  padding: 0 0 20px 0;
+  color:var(--secondary-color);
+}
+
+.tipsForm{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.formInput{
+  background: var(--Quardidary-color);
+  width: 70px;
+  padding: 5px 5px 8px 8px;
+  color: var(--primary-color);
+}
+
+.formInput:focus{
+  border: 3px solid var(--primary-color);
+  outline: none;
+}
+
+.formSelect{
+  background: var(--Quardidary-color);
+  width: 180px;
+  padding: 5px 5px 8px 8px;
+  color: var(--primary-color);
+}
+
+.formSelect:focus{
+  border: 3px solid var(--primary-color);
+  outline: none;
+}
+
+.formSubmit {
+  text-transform: uppercase;
+  font-weight: 700;
+  display: block;
+  margin: 30px auto;
+  background: var(--primary-color);
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  color: var(--Quardidary-color);
+  
+}
+
+.totaltip {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;  
+
+}
+
+.totaltip {
+  display: flex;
+  
+}
+
+.container1{
+  width: 350px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;  
+
+  gap: 3rem;
+  margin: 100px auto;
+  background-color: #f7f7f7;
+  box-shadow: 5px 5px 5px var(--terdidary-color);
+  border-radius: 20px;
+}
